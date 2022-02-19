@@ -32,7 +32,7 @@
 
 .website-logo-header {
   font-family: var(--secondary-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -42,9 +42,9 @@
 
 .website-logo-header-word {
   font-family: var(--secondary-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 
   color: var(--primary-dark-txt);
@@ -52,7 +52,7 @@
 
 .website-logo-footer {
   font-family: var(--secondary-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -62,9 +62,9 @@
 
 .website-logo-footer-word {
   font-family: var(--secondary-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 
   color: var(--primary-light-txt);
@@ -72,7 +72,7 @@
 
 .hero-button-order {
   font-family: var(--main-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
@@ -100,7 +100,16 @@
   background-color: var(--light-background);
 }
 
-.nav-link,
+.nav-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-dark-txt);
+}
+
 .header-mail,
 .header-phone {
   font-family: var(--main-font);
@@ -136,7 +145,7 @@
 
 .benefits-item-title {
   font-family: var(--main-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -147,7 +156,6 @@
 
 .benefits-item-text {
   font-family: var(--main-font);
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -157,7 +165,7 @@
 
 .services-title {
   font-family: var(--main-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -172,7 +180,7 @@
 
 .team-title {
   font-family: var(--main-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -183,18 +191,16 @@
 
 .worker-name {
   font-family: var(--main-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 
   color: var(--primary-dark-txt);
 }
 
 .worker-profession {
   font-family: var(--main-font);
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -208,7 +214,6 @@
 
 .address-map-link {
   font-family: var(--main-font);
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -218,7 +223,6 @@
 
 .address-mail {
   font-family: var(--main-font);
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -227,7 +231,6 @@
 
 .address-phone {
   font-family: var(--main-font);
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -260,10 +263,9 @@
 
 .projects-item-customer {
   font-family: var(--main-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
-
   letter-spacing: 0.06em;
 
   color: var(--primary-dark-txt);
@@ -271,7 +273,6 @@
 
 .projects-item-service {
   font-family: var(--main-font);
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
